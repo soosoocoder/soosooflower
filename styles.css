@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap");
+@import "reset.css";
+
+@import "components/main-header.css";
+
+@import "index.css";
+@import "screen.css";
+@import "sidemenu.css";
+
+Body {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Shippori Mincho", serif;
+  height: 150vh;
+}
+
+:root {
+  --main-border: 0.6px solid rgba(0, 0, 0, 0.2);
+}

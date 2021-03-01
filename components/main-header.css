@@ -1,0 +1,22 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.main-header a:nth-child(2) div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main-header_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-header_title:hover {
+  color: teal;
+}
+.main-header_subtitle {
+  margin-top: 3px;
+  font-size: 10px;
+  font-style: italic;
+}
