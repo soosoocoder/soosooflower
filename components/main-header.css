@@ -1,7 +1,7 @@
 .main-header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 25px 20px;
 }
 .main-header a:nth-child(2) div {
   display: flex;

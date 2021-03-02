@@ -1,0 +1,21 @@
+.body_handtied {
+  height: 125vh;
+}
+.status-bar_handtied,
+.main-header_handtied {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+.main-header_handtied {
+  background-color: white;
+  z-index: 1;
+  top: 27px;
+}
+.status-bar_handtied {
+  z-index: 2;
+  top: 0;
+}
+.menu-bar_handtied {
+  margin-top: 100px;
+}

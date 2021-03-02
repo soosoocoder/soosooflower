@@ -7,6 +7,7 @@
 @import "index.css";
 @import "screen.css";
 @import "sidemenu.css";
+@import "handtied.css";
 
 Body {
   color: rgba(0, 0, 0, 0.9);

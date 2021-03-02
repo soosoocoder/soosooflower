@@ -19,10 +19,32 @@
   padding: 25px 60px;
   font-size: 25px;
   font-weight: 600;
-  margin-top: 50%;
+  margin-top: 40vh;
 }
 .screen_index_subtitle {
   margin-top: 5px;
   font-style: italic;
   text-align: center;
+}
+.mobile-only {
+  position: absolute;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: teal;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.mobile-only span:last-child {
+  margin-top: 10px;
+  font-size: 15px;
+}
+@media screen and (max-width: 645px) {
+  .mobile-only {
+    display: none;
+  }
 }

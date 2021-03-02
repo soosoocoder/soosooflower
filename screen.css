@@ -2,18 +2,22 @@
   display: flex;
   justify-content: space-between;
   padding: 7px 10px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(79, 80, 80);
   color: whitesmoke;
   font-size: 13px;
 }
 .sub-header_column {
   display: flex;
+  justify-content: space-between;
   padding: 15px 20px;
 }
 .sub-header_column span {
   width: 20%;
   font-size: 13px;
   text-align: center;
+}
+.sub-header_column span:hover {
+  color: teal;
 }
 .sub-header_column:first-child {
   border-top: var(--main-border);
